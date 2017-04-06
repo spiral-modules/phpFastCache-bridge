@@ -1,6 +1,12 @@
 # phpfastcache
 Spiral cache bridges module.
 
+[![Latest Stable Version](https://poser.pugx.org/spiral/phpfastcache/v/stable)](https://packagist.org/packages/spiral/phpfastcache)
+[![Total Downloads](https://poser.pugx.org/spiral/phpfastcache/downloads)](https://packagist.org/packages/spiral/phpfastcache)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/spiral-modules/phpfastcache/badges/quality-score.png)](https://scrutinizer-ci.com/g/spiral-modules/phpfastcache/)
+[![Coverage Status](https://coveralls.io/repos/github/spiral-modules/phpfastcache/badge.svg)](https://coveralls.io/github/spiral-modules/phpfastcache)
+[![Build Status](https://travis-ci.org/spiral-modules/phpfastcache.svg?branch=master)](https://travis-ci.org/spiral-modules/phpfastcache)
+
 Spiral utilizes PSR-16 (ORM) and PSR-6 (psr7-middlewares) protocols to allow your application to communicate with cache engines.
 
 You are able to choose any caching library which support this mechanisms. To enable cache support in application create PSR interface binding to your implementation or factory:
