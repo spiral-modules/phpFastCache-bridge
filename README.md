@@ -9,23 +9,6 @@ Spiral cache bridges module.
 
 Spiral utilizes PSR-16 (ORM) and PSR-6 (psr7-middlewares) protocols to allow your application to communicate with cache engines.
 
-You are able to choose any caching library which support this mechanisms. To enable cache support in application create PSR interface binding to your implementation or factory:
-
-```php
-use Psr\SimpleCache\CacheInterface;
-
-class CacheBootloader extends Bootloader {
-    const SINGLETONS = [
-        CacheInterface::class => [self::class, 'makeCache']
-    ];
-
-    protected function makeCache(): CacheItemPoolInterface
-    {
-        return new MyCache();
-    }
-}
-```
-
 ## Installation
 ```
 composer require spiral/phpfastcache
