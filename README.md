@@ -1,6 +1,4 @@
-# phpfastcache
-Spiral cache bridges module.
-
+# PHPFastCache PSR6 and PSR16 adapters
 [![Latest Stable Version](https://poser.pugx.org/spiral/phpfastcache/v/stable)](https://packagist.org/packages/spiral/phpfastcache)
 [![Total Downloads](https://poser.pugx.org/spiral/phpfastcache/downloads)](https://packagist.org/packages/spiral/phpfastcache)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/spiral-modules/phpfastcache/badges/quality-score.png)](https://scrutinizer-ci.com/g/spiral-modules/phpfastcache/)
