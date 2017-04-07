@@ -1,5 +1,6 @@
 {
   "name": "spiral/phpfastcache",
+  "license" : "MIT",
   "description": "Spiral simple cache adapter and phpFastCache bootloaders.",
   "authors": [
     {
