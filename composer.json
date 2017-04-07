@@ -1,5 +1,5 @@
 {
-  "name": "spiral/fastcache",
+  "name": "spiral/phpfastcache",
   "description": "Spiral simple cache adapter and phpFastCache bootloaders.",
   "authors": [
     {
